@@ -1,0 +1,21 @@
+---
+name: Lint
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  workflows:
+    uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@3846ae0fd09acec8ac1ac308ceacd052b9d01bec # v2.0.6

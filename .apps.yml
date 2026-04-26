@@ -1,0 +1,7 @@
+---
+channel: stable
+apps:
+  eink:
+    repository: stuart-c/addon-eink
+    target: eink
+    image: ghcr.io/stuart-c/addon-eink

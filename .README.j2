@@ -1,0 +1,54 @@
+# Home Assistant Apps
+
+![Project Stage][project-stage-shield]
+![Maintenance][maintenance-shield]
+[![License][license-shield]](LICENSE.md)
+
+## Installation
+
+This repository functions as a standard Home Assistant custom Add-on repository. You can add it directly to your Home Assistant instance using the button below:
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fstuart-c%2Fha-addons)
+
+Alternatively, add it manually:
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on store**.
+2. Click the three vertical dots (&#8942;) in the upper right corner and select **Repositories**.
+3. Add `{{ repo }}` and click **Add**.
+4. The add-on will now be available for configuration and installation.
+
+## Apps provided by this repository
+
+{% for addon in addons %}
+### &#10003; [{{ addon.name }}][addon-{{ addon.target }}]
+
+![Latest Version][{{ addon.target }}-version-shield]
+![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
+![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
+![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
+![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
+![Supports i386 Architecture][{{ addon.target }}-i386-shield]
+
+{{ addon.description }}
+
+[:books: {{ addon.name }} app documentation][addon-doc-{{ addon.target }}]
+
+{% endfor %}
+
+{% for addon in addons %}
+[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
+[addon-doc-{{ addon.target}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
+[{{ addon.target }}-issue]: {{ addon.repo }}/issues
+[{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
+{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
+{% if arch in addon.archs %}
+[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
+{% else %}
+[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-no-red.svg
+{% endif %}
+{% endfor %}
+{% endfor %}
+[awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
+[awesome]: https://awesome-ha.com
+[license-shield]: https://img.shields.io/github/license/{{ name }}.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg

@@ -2,4 +2,4 @@
 
 ## 🐛 Bug Fixes
 
-- fix(addon): grant addon user access to media directory @stuart-c-ai (#434)
+- fix(addon): declare MQTT service dependency in addon configuration @stuart-c-ai (#435)

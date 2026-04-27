@@ -1,5 +1,5 @@
 ## Changes
 
-## 🐛 Bug Fixes
+## 🚀 Features
 
-- fix(addon): declare MQTT service dependency in addon configuration @stuart-c-ai (#435)
+- feat(addon): change log\_level configuration to a dropdown @stuart-c-ai (#436)

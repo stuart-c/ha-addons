@@ -1,5 +1,5 @@
 name: eInk Layout Manager
-version: 0.4.1
+version: 0.4.2
 slug: eink
 image: ghcr.io/stuart-c/addon-eink
 description: Manage multiple eInk displays with advanced layouts via OpenDisplay
@@ -22,15 +22,7 @@ options:
   log_level: info
   media_subdirectory: eink/scene_display
 schema:
-  log_level:
-  - trace
-  - debug
-  - info
-  - notice
-  - warning
-  - error
-  - fatal
-  - critical
+  log_level: list(trace|debug|info|notice|warning|error|fatal|critical)
   media_subdirectory: match(^[a-zA-Z0-9_\-/]+$)
 services:
 - mqtt:want

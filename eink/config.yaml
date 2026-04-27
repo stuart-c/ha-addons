@@ -1,5 +1,5 @@
 name: eInk Layout Manager
-version: 0.4.0
+version: 0.4.1
 slug: eink
 image: ghcr.io/stuart-c/addon-eink
 description: Manage multiple eInk displays with advanced layouts via OpenDisplay
@@ -17,6 +17,7 @@ ingress: true
 ingress_port: 8099
 host_network: false
 hassio_api: true
+homeassistant_api: true
 options:
   log_level: info
   media_subdirectory: eink/scene_display

@@ -1,5 +1,9 @@
 ## Changes
 
+## 🚀 Features
+
+- feat: add layout filter dropdown to Scenes view sidebar @stuart-c-ai (#423)
+
 ## 🐛 Bug Fixes
 
-- fix(addon): use correct Home Assistant schema list syntax for `log_level` @stuart-c-ai (#438)
+- fix(addon): rewrite handler to use real Home Assistant Websockets @stuart-c-ai (#439)

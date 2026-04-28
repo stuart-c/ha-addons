@@ -2,11 +2,9 @@
 
 ## 🚀 Features
 
-- refactor: use scene queue for background processing @stuart-c-ai (#449)
-- feat: periodic scene queue update process @stuart-c-ai (#448)
-- feat: populate scene queue on save @stuart-c-ai (#447)
-- feat: add scene queue table and API @stuart-c-ai (#446)
+- feat: trigger scene processing automatically via event @stuart-c-ai (#452)
+- feat: optimize scene API polling to use queue endpoint @stuart-c-ai (#451)
 
-## ⚙️ Refactoring
+## 🧰 Maintenance
 
-- refactor: use scene queue for background processing @stuart-c-ai (#449)
+- chore(deps): bump peter-evans/repository-dispatch from 3.0.0 to 4.0.1 in the github-actions group @[dependabot[bot]](https://github.com/apps/dependabot) (#450)

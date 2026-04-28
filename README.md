@@ -32,10 +32,10 @@ Manage multiple eInk displays with advanced layouts via OpenDisplay
 [:books: eInk Layout Manager app documentation][addon-doc-eink]
 
 
-[addon-eink]: https://github.com/stuart-c/addon-eink/tree/v0.7.0
-[addon-doc-eink]: https://github.com/stuart-c/addon-eink/blob/v0.7.0/README.md
+[addon-eink]: https://github.com/stuart-c/addon-eink/tree/v0.7.1
+[addon-doc-eink]: https://github.com/stuart-c/addon-eink/blob/v0.7.1/README.md
 [eink-issue]: https://github.com/stuart-c/addon-eink/issues
-[eink-version-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
+[eink-version-shield]: https://img.shields.io/badge/version-v0.7.1-blue.svg
 [eink-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [eink-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [eink-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

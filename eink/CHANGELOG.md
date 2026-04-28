@@ -1,9 +1,9 @@
 ## Changes
 
-## 🐛 Bug Fixes
+- Stabilize Image Library E2E Tests @stuart-c-ai (#380)
 
-- Fix: Handle scene items independently for MQTT updates @stuart-c-ai (#453)
+## 🚀 Features
 
-## ⚙️ Refactoring
-
-- Refactor: Move backend imports to top level @stuart-c-ai (#454)
+- feat: orientation-aware scene processing and 0 HA rotation @stuart-c-ai (#457)
+- feat: add panel\_orientation field to DisplayType @stuart-c-ai (#456)
+- feat: Persist MQTT layout state to database @stuart-c-ai (#455)

@@ -2,4 +2,4 @@
 
 ## 🐛 Bug Fixes
 
-- fix: Enable debug logging @stuart-c (#5)
+- fix: Resolve PID 1 error by updating shebang and adding healthcheck @stuart-c (#6)

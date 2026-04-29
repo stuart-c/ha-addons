@@ -5,3 +5,7 @@ apps:
     repository: stuart-c/addon-eink
     target: eink
     image: ghcr.io/stuart-c/addon-eink
+  llama:
+    repository: stuart-c/addon-llama
+    target: llama
+    image: ghcr.io/stuart-c/addon-llama

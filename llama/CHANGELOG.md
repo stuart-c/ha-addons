@@ -2,4 +2,4 @@
 
 ## 🐛 Bug Fixes
 
-- fix: Resolve missing libmtmd.so and improve startup logging @stuart-c (#8)
+- fix: Resolve LD\_LIBRARY\_PATH unbound variable error @stuart-c (#9)

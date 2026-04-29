@@ -54,10 +54,10 @@ High-performance llama.cpp fork for Pi 5
 [eink-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [eink-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [eink-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-llama]: https://github.com/stuart-c/addon-llama/tree/v0.1.0
-[addon-doc-llama]: https://github.com/stuart-c/addon-llama/blob/v0.1.0/README.md
+[addon-llama]: https://github.com/stuart-c/addon-llama/tree/v0.1.1
+[addon-doc-llama]: https://github.com/stuart-c/addon-llama/blob/v0.1.1/README.md
 [llama-issue]: https://github.com/stuart-c/addon-llama/issues
-[llama-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[llama-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [llama-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [llama-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [llama-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

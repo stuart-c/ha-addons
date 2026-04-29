@@ -2,4 +2,4 @@
 
 ## 🐛 Bug Fixes
 
-- fix: Shebang @stuart-c (#7)
+- fix: Resolve missing libmtmd.so and improve startup logging @stuart-c (#8)

@@ -1,3 +1,5 @@
 ## Changes
 
-* No changes
+## 🐛 Bug Fixes
+
+- fix: Enable debug logging @stuart-c (#5)

@@ -2,4 +2,4 @@
 
 ## 🐛 Bug Fixes
 
-- fix: Variable error @stuart-c (#12)
+- fix: install libgomp1 to resolve missing shared library error @stuart-c (#13)

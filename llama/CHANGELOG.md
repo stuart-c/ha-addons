@@ -1,5 +1,5 @@
 ## Changes
 
-## 🐛 Bug Fixes
+## 🚀 Features
 
-- fix: Reduce logging @stuart-c (#14)
+- feat: add additional\_args configuration option @stuart-c (#16)

@@ -1,5 +1,5 @@
 name: ik_llama.cpp Server
-version: 0.1.10
+version: 0.2.0
 slug: ik_llama_server
 image: ghcr.io/stuart-c/addon-llama
 description: High-performance llama.cpp fork for Pi 5
@@ -13,7 +13,9 @@ options:
   model_url: https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-IQ4_NL.gguf
   ctx_size: 4096
   threads: 4
+  additional_args: ''
 schema:
   model_url: str
   ctx_size: int
   threads: int
+  additional_args: str?

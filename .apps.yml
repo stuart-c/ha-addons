@@ -9,3 +9,7 @@ apps:
     repository: stuart-c/addon-llama
     target: llama
     image: ghcr.io/stuart-c/addon-llama
+  semantic-router:
+    repository: stuart-c/addon-semantic-router
+    target: semantic-router
+    image: ghcr.io/stuart-c/addon-semantic-router

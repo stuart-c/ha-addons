@@ -58,10 +58,10 @@ High-performance llama.cpp fork for Pi 5
 [:books: ik_llama.cpp Server app documentation][addon-doc-llama]
 
 
-[addon-semantic-router]: https://github.com/stuart-c/addon-semantic-router/tree/v0.1.0
-[addon-doc-semantic-router]: https://github.com/stuart-c/addon-semantic-router/blob/v0.1.0/README.md
+[addon-semantic-router]: https://github.com/stuart-c/addon-semantic-router/tree/v0.1.1
+[addon-doc-semantic-router]: https://github.com/stuart-c/addon-semantic-router/blob/v0.1.1/README.md
 [semantic-router-issue]: https://github.com/stuart-c/addon-semantic-router/issues
-[semantic-router-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[semantic-router-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [semantic-router-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [semantic-router-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [semantic-router-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

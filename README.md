@@ -18,6 +18,19 @@ Alternatively, add it manually:
 
 ## Apps provided by this repository
 
+### &#10003; [Semantic Router][addon-semantic-router]
+
+![Latest Version][semantic-router-version-shield]
+![Supports armhf Architecture][semantic-router-armhf-shield]
+![Supports armv7 Architecture][semantic-router-armv7-shield]
+![Supports aarch64 Architecture][semantic-router-aarch64-shield]
+![Supports amd64 Architecture][semantic-router-amd64-shield]
+![Supports i386 Architecture][semantic-router-i386-shield]
+
+A semantic router for LLM applications
+
+[:books: Semantic Router app documentation][addon-doc-semantic-router]
+
 ### &#10003; [eInk Layout Manager][addon-eink]
 
 ![Latest Version][eink-version-shield]
@@ -45,6 +58,15 @@ High-performance llama.cpp fork for Pi 5
 [:books: ik_llama.cpp Server app documentation][addon-doc-llama]
 
 
+[addon-semantic-router]: https://github.com/stuart-c/addon-semantic-router/tree/v0.1.0
+[addon-doc-semantic-router]: https://github.com/stuart-c/addon-semantic-router/blob/v0.1.0/README.md
+[semantic-router-issue]: https://github.com/stuart-c/addon-semantic-router/issues
+[semantic-router-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[semantic-router-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[semantic-router-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[semantic-router-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[semantic-router-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[semantic-router-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-eink]: https://github.com/stuart-c/addon-eink/tree/v0.9.0
 [addon-doc-eink]: https://github.com/stuart-c/addon-eink/blob/v0.9.0/README.md
 [eink-issue]: https://github.com/stuart-c/addon-eink/issues

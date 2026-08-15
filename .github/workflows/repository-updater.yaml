@@ -4,14 +4,15 @@ name: Repository Updater
 # yamllint disable-line rule:truthy
 on:
   repository_dispatch:
-    types: ["update"]
+    types: ["update", "update-dev"]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   update:
     name: Running updater for ${{ github.event.client_payload.app }}
+    if: github.event.action == 'update'
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Run Repository Updater
@@ -20,3 +21,41 @@ jobs:
           app: ${{ github.event.client_payload.app }}
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
+
+  update-dev:
+    name: Running dev updater for ${{ github.event.client_payload.app }}
+    if: github.event.action == 'update-dev'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          token: ${{ secrets.UPDATER_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: 📝 Update Dev Version in config.yaml
+        run: |
+          APP="${{ github.event.client_payload.app }}"
+          VERSION="${{ github.event.client_payload.version }}"
+
+          if [ -z "$APP" ] || [ -z "$VERSION" ]; then
+            echo "Missing app or version in client_payload"
+            exit 1
+          fi
+
+          if [ ! -f "${APP}/config.yaml" ]; then
+            echo "Configuration file ${APP}/config.yaml not found"
+            exit 1
+          fi
+
+          sed -i "s/^version:.*/version: \"$VERSION\"/" "${APP}/config.yaml"
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${APP}/config.yaml"
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(${APP}): update dev version to ${VERSION}"
+            git push
+          else
+            echo "No changes to commit"
+          fi

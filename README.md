@@ -57,6 +57,32 @@ High-performance llama.cpp fork for Pi 5
 
 [:books: ik_llama.cpp Server app documentation][addon-doc-llama]
 
+### &#10003; [Travel Assistant][addon-travel-assistant]
+
+![Latest Version][travel-assistant-version-shield]
+![Supports armhf Architecture][travel-assistant-armhf-shield]
+![Supports armv7 Architecture][travel-assistant-armv7-shield]
+![Supports aarch64 Architecture][travel-assistant-aarch64-shield]
+![Supports amd64 Architecture][travel-assistant-amd64-shield]
+![Supports i386 Architecture][travel-assistant-i386-shield]
+
+Home Assistant Add-on providing travel and transport intelligence
+
+[:books: Travel Assistant app documentation][addon-doc-travel-assistant]
+
+### &#10003; [Travel Assistant (dev)][addon-travel-assistant-dev]
+
+![Latest Version][travel-assistant-dev-version-shield]
+![Supports armhf Architecture][travel-assistant-dev-armhf-shield]
+![Supports armv7 Architecture][travel-assistant-dev-armv7-shield]
+![Supports aarch64 Architecture][travel-assistant-dev-aarch64-shield]
+![Supports amd64 Architecture][travel-assistant-dev-amd64-shield]
+![Supports i386 Architecture][travel-assistant-dev-i386-shield]
+
+Home Assistant Add-on providing travel and transport intelligence (Development Build)
+
+[:books: Travel Assistant (dev) app documentation][addon-doc-travel-assistant-dev]
+
 
 [addon-semantic-router]: https://github.com/stuart-c/addon-semantic-router/tree/v0.1.1
 [addon-doc-semantic-router]: https://github.com/stuart-c/addon-semantic-router/blob/v0.1.1/README.md
@@ -85,6 +111,24 @@ High-performance llama.cpp fork for Pi 5
 [llama-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [llama-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [llama-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-travel-assistant]: https://github.com/stuart-c/travel-assistant/tree/v0.1.0
+[addon-doc-travel-assistant]: https://github.com/stuart-c/travel-assistant/blob/v0.1.0/README.md
+[travel-assistant-issue]: https://github.com/stuart-c/travel-assistant/issues
+[travel-assistant-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[travel-assistant-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[travel-assistant-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[travel-assistant-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[travel-assistant-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[travel-assistant-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-travel-assistant-dev]: https://github.com/stuart-c/travel-assistant/tree/main
+[addon-doc-travel-assistant-dev]: https://github.com/stuart-c/travel-assistant/blob/main/README.md
+[travel-assistant-dev-issue]: https://github.com/stuart-c/travel-assistant/issues
+[travel-assistant-dev-version-shield]: https://img.shields.io/badge/version-dev-orange.svg
+[travel-assistant-dev-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[travel-assistant-dev-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[travel-assistant-dev-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[travel-assistant-dev-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[travel-assistant-dev-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [license-shield]: https://img.shields.io/github/license/stuart-c/ha-addons.svg

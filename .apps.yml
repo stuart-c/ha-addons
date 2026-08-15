@@ -13,3 +13,7 @@ apps:
     repository: stuart-c/addon-semantic-router
     target: semantic-router
     image: ghcr.io/stuart-c/addon-semantic-router
+  travel-assistant:
+    repository: stuart-c/travel-assistant
+    target: travel-assistant
+    image: ghcr.io/stuart-c/travel-assistant

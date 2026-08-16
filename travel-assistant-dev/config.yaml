@@ -1,6 +1,6 @@
 ---
 name: Travel Assistant (dev)
-version: "dev-3c41f51"
+version: "dev-45c7cee"
 slug: travel_assistant_dev
 image: ghcr.io/stuart-c/travel-assistant
 description: Home Assistant Add-on providing travel and transport intelligence (Development Build)
